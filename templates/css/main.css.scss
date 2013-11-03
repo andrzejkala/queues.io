@@ -118,7 +118,7 @@ footer {
   padding-bottom: 0;
 }
 
-#projects {
+.projects {
   h2 {
     margin-top: 0;
   }
@@ -206,4 +206,30 @@ footer {
       color: #aaa;
     }
   }
+}
+
+#small-projects {
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  article {
+    font-size: .8em;
+  }
+
+  a {
+    color: #d57e5d;
+  }
+
+  .project_url a {
+    color: #333;
+    background: #EBEEF5;
+  }
+
+  .tag {
+    color: #242729;
+    background: #eee;
+  }
+
 }
